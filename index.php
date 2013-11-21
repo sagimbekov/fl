@@ -29,7 +29,7 @@
 <!-- Header -->
 <header class="outer-container expanded" id="header">
     <div class="inner-container">
-        <section id="rd_logo"> <img src="img/ui/logo.gif"/> </section>
+        <section id="rd_logo"> <img src="img/ui/logo1.png"/> </section>
         
         <nav id="primary">
             <label for="toggle-menu">Menu <img src="img/ui/menu.png" alt="Menu" width="80" height="80" /></label>
