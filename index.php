@@ -5,14 +5,14 @@
 <!--[if lt IE 9]> <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
 
 <head>
-<title>Rich Dean, creative designer specialising in digital media</title>
+<title>FerrumLogic</title>
 <meta charset="utf-8" />
 <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
 <meta name="description" content="I'm Rich Dean, a creative designer specialising in digital media with over 12 years of experience. I work as Head of design for London agency Zone, where we produce digital goodness for some of the best brands in the world." />
 <meta name="viewport" content="width=device-width" />
 <meta name="apple-touch-fullscreen" content="YES" />
 <meta name="apple-mobile-web-app-capable" content="YES" />
-<link rel="shortcut icon" href="img/icons/favicon.ico" />
+<link rel="shortcut icon" href="img/icons/logoh.ico" />
 <link rel="apple-touch-icon" href="img/icons/touch_icon.png" />
 <link rel="stylesheet" type="text/css" href="css/reset.css" />
 <link rel="stylesheet" type="text/css" href="css/global.css" />
@@ -40,9 +40,9 @@
     <div class="inner-container">
         <article>
             <h1 class="hidden">RichDean.co.uk - personal portfolio site of digital designer Rich Dean.</h1>
-            <p>Hello</p>
-            <p>I'm Rich Dean, a creative designer specialising in digital media with over 12 years of experience. I work as Head of design for London agency <a href="http://www.thisiszone.com" target="_blank">Zone</a>, where we produce digital goodness for some of the best brands in the world.</p>
-            <a href="#about" class="button text-only scroll"> Find out more </a> </article>
+            <p>Привет</p>
+            <p>Мы помогаем своим заказчикам расширять рамки текущего бизнеса, создавая новые инструменты для взаимодействия с клиентами.</p>
+            <a href="##portfolio-header" class="button text-only scroll"> Примеры наших работ </a> </article>
     </div>
 </section>
 
@@ -64,14 +64,15 @@
 <section class="outer-container" id="portfolio">
     <div class="inner-container">
         <article class="invisible">
-            <div class="thumb"> <a href="npc.htm#portfolio-header" class="ajax"> <span class="thumb-border"></span> <img src="img/thumbs/thumb_npc.jpg" alt="NPC"class="thumb-img" /> </a> </div>
+            <div class="thumb"> <a href="npc.htm#portfolio-header" target="_blank"> <span class="thumb-border"></span> <img src="img/thumbs/travelbook.png" alt="NPC"class="thumb-img" /> </a> </div>
             <div class="summary">
                 <h3> <a href="npc.htm#portfolio-header" class="ajax"> NPC </a> </h3>
                 <p> Website redesign </p>
+
             </div>
         </article>
         <article class="invisible">
-            <div class="thumb"> <a href="lucerne.htm#portfolio-header" class="ajax"> <span class="thumb-border"></span> <img src="img/thumbs/thumb_lucerne.jpg" alt="Lucerne"class="thumb-img" /> </a> </div>
+            <div class="thumb"> <a href="lucerne.htm#portfolio-header" class="ajax"> <span class="thumb-border"></span> <img src="img/thumbs/ioi.png" alt="Lucerne"class="thumb-img" /> </a> </div>
             <div class="summary">
                 <h3> <a href="lucerne.htm#portfolio-header" class="ajax"> Lucerne  Festival </a> </h3>
                 <p> Website redesign (concept) </p>
@@ -91,28 +92,6 @@
                 <p> Digital communications </p>
             </div>
         </article>
-        <article class="invisible">
-            <div class="thumb"> <a href="relentless_qr.htm#portfolio-header" class="ajax"> <span class="thumb-border"></span> <img src="img/thumbs/thumb_relentlessqr.jpg" alt="Relentless Energy Drink"class="thumb-img" /> </a> </div>
-            <div class="summary">
-                <h3> <a href="relentless_qr.htm#portfolio-header" class="ajax"> Relentless Energy Drink </a> </h3>
-                <p> Freeze Festival QR campaign </p>
-            </div>
-        </article>
-        <article class="invisible">
-            <div class="thumb"> <a href="zone.htm#portfolio-header" class="ajax"> <span class="thumb-border"></span> <img src="img/thumbs/thumb_zone.jpg" alt="Zone"class="thumb-img" /> </a> </div>
-            <div class="summary">
-                <h3> <a href="zone.htm#portfolio-header" class="ajax"> Zone </a> </h3>
-                <p> Agency website </p>
-            </div>
-        </article>
-        <article class="invisible">
-            <div class="thumb"> <a href="pepperhood.htm#portfolio-header" class="ajax"> <span class="thumb-border"></span> <img src="img/thumbs/thumb_drpepper.jpg" alt="Dr Pepper"class="thumb-img" /> </a> </div>
-            <div class="summary">
-                <h3> <a href="pepperhood.htm#portfolio-header" class="ajax"> Dr Pepper </a> </h3>
-                <p> The Pepperhood </p>
-            </div>
-        </article>
-       
     </div>
 </section>
 
@@ -121,11 +100,6 @@
     <div class="inner-container">
         <h2>About</h2>
         <p class="statement">I make things on the internet</p>
-        <div class="info">
-            <p>I'v been working as a designer for the past thirteen years, and in that time I've worked on some amazing projects with some really talented people. I've learned a lot along the way. Three years ago I joined Zone, a top digital agency based in London, and for the past two years I've held the role of head of design. My job is evenly split between hands-on design and management duties, and it's great to be able to pass on my skills and help shape the way the agency works.</p>
-            <div class="thumb invisible"> <img src="img/thumbs/thumb_drpepper.jpg" alt="Myself working at a desk" width="640" height="640" class="thumb-img" /> </div>
-            <p>When I'm not designing, I like to keep fit and healthy, either running or working out at the gym. I'm also a big fan of sci-fi and action films, and when I get the time, I like computer games too. I enjoy a spot of DIY, but I'm also quite and outdoors kind of person. Family and friends are probably most important to me, and the best times are always holidays away or quality nights enjoying a drink with friends.</p>
-        </div>
         <article class="pie">
             <div class="pie_chart">
                 <div class="outer invisible" id="user_experience" ></div>
@@ -211,10 +185,28 @@
 <section class="outer-container" id="clients">
     <div class="inner-container">
         <h2>Clients</h2>
-        <!-- <article class="invisible">
-            <div class="thumb"> <img src="img/logos/logo_adidas.png" alt="Adidas" width="200" height="200" class="thumb-img" /> </div>
+        <article class="invisible">
+            <div class="bw pic">
+             <a target="_blank" href="http://www.kcell.kz/">
+                <img src="img/clients/kcell_logo.png" alt="KCell">
+              </a>
+            </div>
         </article>
         <article class="invisible">
+            <div class="bw pic">
+             <a target="_blank" href="http://www.kbtu.kz/">
+                <img src="img/clients/kbtu_logo.png" alt="Kbtu">
+              </a>
+            </div>
+        </article>
+        <article class="invisible">
+            <div class="bw pic">
+             <a target="_blank" href="http://sst.nu.edu.kz/">
+                <img src="img/clients/naz_logo.png" alt="NazarbaevUniversity">
+              </a>
+            </div>
+        </article>
+ <!--        <article class="invisible">
             <div class="thumb"> <img src="img/logos/logo_bt.png" alt="BT" width="200" height="200" class="thumb-img" /> </div>
         </article>
         <article class="invisible">
