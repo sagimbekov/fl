@@ -401,10 +401,18 @@ a{
 	z-index:40
 }
 body{
-	text-wrap:none;text-rendering:optimizeLegibility;
+	text-wrap:none;
+	text-rendering:optimizeLegibility;
 	font-size-adjust:none;
 	-webkit-text-size-adjust:none;
-	background-color:#f5f0eb;
+	background: -moz-linear-gradient(top,  rgba(229,229,229,0.01) 12%, rgba(229,229,229,0.32) 23%, rgba(229,229,229,0.52) 30%, rgba(235,235,235,1) 47%, rgba(255,255,255,1) 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(12%,rgba(229,229,229,0.01)), color-stop(23%,rgba(229,229,229,0.32)), color-stop(30%,rgba(229,229,229,0.52)), color-stop(47%,rgba(235,235,235,1)), color-stop(100%,rgba(255,255,255,1))); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  rgba(229,229,229,0.01) 12%,rgba(229,229,229,0.32) 23%,rgba(229,229,229,0.52) 30%,rgba(235,235,235,1) 47%,rgba(255,255,255,1) 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  rgba(229,229,229,0.01) 12%,rgba(229,229,229,0.32) 23%,rgba(229,229,229,0.52) 30%,rgba(235,235,235,1) 47%,rgba(255,255,255,1) 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  rgba(229,229,229,0.01) 12%,rgba(229,229,229,0.32) 23%,rgba(229,229,229,0.52) 30%,rgba(235,235,235,1) 47%,rgba(255,255,255,1) 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  rgba(229,229,229,0.01) 12%,rgba(229,229,229,0.32) 23%,rgba(229,229,229,0.52) 30%,rgba(235,235,235,1) 47%,rgba(255,255,255,1) 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#03e5e5e5', endColorstr='#ffffff',GradientType=0 ); /* IE6-9 */
+
 	color:#4b4b4b
 }
 img{
@@ -444,7 +452,7 @@ nav{
 	font-family:'AvantGardeGothicITCW02B 737109',"Century Gothic",Arial,sans-serif;text-align:center;margin-bottom:20px
 }
 #intro h2,#portfolio h2,#about h2,#twitter h2,#instagram-feed h2,#clients h2{
-	margin-bottom:80px
+	margin-bottom:35px
 }
 #portfolio-header h2{
 	margin-bottom:40px
@@ -543,7 +551,7 @@ nav{
 	margin-left:3%;
 	float:left;
 	width:200px;
-	height:180px
+	height:40px
 }
 #header #toggle-menu{
 	display:none
@@ -598,7 +606,7 @@ footer #contacts{
 		display:none
 	}
 	#header #toggle-menu:checked+#primary{
-		height:230px
+		height:200px
 	}
 	#header #primary{
 		margin-bottom:40px;
@@ -643,7 +651,7 @@ footer #contacts{
 		line-height:1.85rem;
 		height:31px;
 		padding:5px 20px 0 20px;
-		clear:both;display:block
+		clear:both;display:block;
 	}
 	#header #primary a.current,#header #primary label.current{
 		background-color:transparent;font-family:'AvantGardeGothicITCW02D 737115',"Century Gothic",Arial,sans-serif;
@@ -659,14 +667,14 @@ footer #contacts{
 	}
 }
 @media screen and (max-width:560px){
-	footer #copyright{
+	/*footer #copyright{
 		margin-bottom:10px
 	}
 	footer #contacts{
 		margin-left:3%;
 		float:left;
 		margin-bottom:20px
-	}
+	}*/
 }
 @media screen and (max-width:530px){
 	#header #contacts{
@@ -729,10 +737,9 @@ footer #contacts{
 	clear:left
 }
 #clients article{
-	float:left;
+	float:left;	
 	margin-bottom:40px;
 	margin-left:3%;
-	width:13.17%
 }
 @media screen and (min-width:1100px){
 	#portfolio article:nth-child(5),#portfolio article:nth-child(12),#portfolio article:nth-child(19){
@@ -770,7 +777,7 @@ footer #contacts{
 		display:block
 	}
 	#clients article{
-		width:29.33%
+		/*width:29.33%*/
 	}
 }
 @media screen and (max-width:800px){
@@ -824,18 +831,18 @@ footer #contacts{
 }
 @media screen and (min-width:1400px){
 	#intro p:nth-child(2){
-		font-size:256px;
-		font-size:16rem;
-		line-height:256px;
+		font-size:224px;
+		font-size:10rem;
+		line-height:224px;
 		line-height:16rem
 	}
 }
 @media screen and (min-width:1300px) and (max-width:1399px){
 	#intro p:nth-child(2){
 		font-size:224px;
-		font-size:14rem;
+		font-size:10rem;
 		line-height:224px;
-		line-height:14rem
+		line-height:16rem
 	}
 }
 @media screen and (min-width:1200px) and (max-width:1299px){
@@ -995,17 +1002,17 @@ footer #contacts{
 }
 @media screen and (min-width:1400px) {
     #about .statement {
-    font-size: 128px;
-    font-size: 8rem;
-    line-height: 128px;
-    line-height: 8rem;
+    font-size: 96px;
+    font-size: 2rem;
+    line-height: 96px;
+    line-height: 2rem;
 }
 }@media screen and (min-width:1000px) and (max-width:1399px) {
     #about .statement {
     font-size: 96px;
-    font-size: 6rem;
+    font-size: 2rem;
     line-height: 96px;
-    line-height: 6rem;
+    line-height: 2rem;
 }
 }@media screen and (max-width:1000px) {
     #about {
@@ -1119,9 +1126,18 @@ footer #contacts{
     background-color: #fff;
     padding-bottom: 40px;
 }
+.all-clients {
+	width: 900px ;
+	margin-left: auto ;
+	margin-right: auto ;
+}
+
+.all-clients article{
+	margin: 0px 25px;
+}
 .button {
     margin-bottom: 40px;
-    background-color: #c3184d;
+    background-color: #428bca;
     border-radius: 20px;
     -o-border-radius: 20px;
     -ms-border-radius: 20px;
@@ -1166,7 +1182,7 @@ footer #contacts{
 }
 .scroll-to-top, .next, .previous, .close {
     margin-bottom: 40px;
-    background-color: #c3184d;
+    background-color: #428bca;
     border-radius: 20px;
     -o-border-radius: 20px;
     -ms-border-radius: 20px;
@@ -1365,10 +1381,19 @@ footer #contacts{
 /*DARKEN*/
 .bw {
 	-webkit-filter: grayscale(100%);
-  	
+  -moz-filter: grayscale(100%);
+  -ms-filter: grayscale(100%);
+  -o-filter: grayscale(100%);
+  filter: grayscale(100%);
+  /*filter: url(grayscale.svg); /* Firefox 4+ */
+  filter: gray; /* IE 6-9 */
     height: 45px;
 }
  
 .bw:hover {
   -webkit-filter: grayscale(0%);
+}
+.ferrumlogic{
+	color: rgb(195, 24, 77);
+	font-weight: bold;
 }
