@@ -392,7 +392,14 @@ a{
 	margin:40px auto 0 auto
 }
 #white-overlay{
-	background-color:#fff;
+	background: #ffffff; /* Old browsers */
+	background: -moz-linear-gradient(top,  #ffffff 0%, #f1f1f1 7%, #e1e1e1 61%, #f6f6f6 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff), color-stop(7%,#f1f1f1), color-stop(61%,#e1e1e1), color-stop(100%,#f6f6f6)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #ffffff 0%,#f1f1f1 7%,#e1e1e1 61%,#f6f6f6 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #ffffff 0%,#f1f1f1 7%,#e1e1e1 61%,#f6f6f6 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #ffffff 0%,#f1f1f1 7%,#e1e1e1 61%,#f6f6f6 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  #ffffff 0%,#f1f1f1 7%,#e1e1e1 61%,#f6f6f6 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#f6f6f6',GradientType=0 ); /* IE6-9 */
 	position:fixed;
 	top:0;
 	right:0;
@@ -586,8 +593,9 @@ nav{
 	float:left
 }
 #header #primary a.current,#header #primary span.current{
-	background-color:#f5f0eb;
-	font-family:'AvantGardeGothicITCW02M 737127',"Century Gothic",Arial,sans-serif;color:#c3184d
+	background-color:#0088cc;
+	font-family:'AvantGardeGothicITCW02M 737127',"Century Gothic",Arial,sans-serif;
+	color:#fff
 }
 #header #primary label{
 	display:none
@@ -711,7 +719,7 @@ footer #contacts{
 	border-radius:640px;
 	border-style:solid;
 	border-width:0;
-	border-color:#e1dcd7
+	border-color:#e1dcd7;
 }#portfolio article:hover .thumb .thumb-border,#about:hover .thumb .thumb-border,#instagram-feed article:hover .thumb .thumb-border,#clients article:hover .thumb .thumb-border{
 	transition:all 250ms cubic-bezier(0.5,0,0.5,1);
 	-o-transition:all 250ms cubic-bezier(0.5,0,0.5,1);
@@ -1137,7 +1145,14 @@ footer #contacts{
 }
 .button {
     margin-bottom: 40px;
-    background-color: #428bca;
+  	background: #d0e4f7; /* Old browsers */
+	background: -moz-linear-gradient(top,  #d0e4f7 0%, #73b1e7 2%, #0a77d5 51%, #539fe1 100%, #87bcea 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#d0e4f7), color-stop(2%,#73b1e7), color-stop(51%,#0a77d5), color-stop(100%,#539fe1), color-stop(100%,#87bcea)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #d0e4f7 0%,#73b1e7 2%,#0a77d5 51%,#539fe1 100%,#87bcea 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #d0e4f7 0%,#73b1e7 2%,#0a77d5 51%,#539fe1 100%,#87bcea 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #d0e4f7 0%,#73b1e7 2%,#0a77d5 51%,#539fe1 100%,#87bcea 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  #d0e4f7 0%,#73b1e7 2%,#0a77d5 51%,#539fe1 100%,#87bcea 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d0e4f7', endColorstr='#87bcea',GradientType=0 ); /* IE6-9 */
     border-radius: 20px;
     -o-border-radius: 20px;
     -ms-border-radius: 20px;
@@ -1396,4 +1411,22 @@ footer #contacts{
 .ferrumlogic{
 	color: rgb(195, 24, 77);
 	font-weight: bold;
+}
+#header #primary a:hover{
+	background-color: #eeeeee;
+}
+#header #primary a.current:hover{
+	background-color: #0088cc;
+
+}
+.button:hover{
+	background: #d0e4f7; /* Old browsers */
+	background: -moz-linear-gradient(top,  #d0e4f7 0%, #87bcea 0%, #73b1e7 2%, #0a77d5 25%, #539fe1 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#d0e4f7), color-stop(0%,#87bcea), color-stop(2%,#73b1e7), color-stop(25%,#0a77d5), color-stop(100%,#539fe1)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #d0e4f7 0%,#87bcea 0%,#73b1e7 2%,#0a77d5 25%,#539fe1 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #d0e4f7 0%,#87bcea 0%,#73b1e7 2%,#0a77d5 25%,#539fe1 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #d0e4f7 0%,#87bcea 0%,#73b1e7 2%,#0a77d5 25%,#539fe1 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  #d0e4f7 0%,#87bcea 0%,#73b1e7 2%,#0a77d5 25%,#539fe1 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d0e4f7', endColorstr='#539fe1',GradientType=0 ); /* IE6-9 */
+
 }
