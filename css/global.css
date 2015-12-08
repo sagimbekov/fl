@@ -76,7 +76,7 @@
 	top:0;bottom:250px
 }
 .non-sticky{
-	position:absolute
+	position:absolute;
 }
 .sticky-bottom{
 	position:absolute;
